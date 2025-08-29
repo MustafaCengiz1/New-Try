@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMC_CL_ALISTIRMA_6_YEDEK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Alistirma 6</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>INFO</CMPNAME>
+     <SCONAME>IV_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>NO_DAYS</CMPNAME>
+     <SCONAME>IV_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WEEKDAY</CMPNAME>
+     <SCONAME>EV_WEEKDAY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Day</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WEEKDAY</CMPNAME>
+     <SCONAME>IV_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

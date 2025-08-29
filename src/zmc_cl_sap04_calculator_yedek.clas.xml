@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMC_CL_SAP04_CALCULATOR_YEDEK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Example Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>BOL</CMPNAME>
+     <SCONAME>EV_NO_BOLUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BOL</CMPNAME>
+     <SCONAME>IV_NO_BOL_1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BOL</CMPNAME>
+     <SCONAME>IV_NO_BOL_2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>BOL</CMPNAME>
+     <SCONAME>SIFIRA_BOLME_ISLEMI</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Bolen sayi sifir olamaz.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CARP</CMPNAME>
+     <SCONAME>EV_NO_CARPIM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CARP</CMPNAME>
+     <SCONAME>IV_NO_CARP_1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CARP</CMPNAME>
+     <SCONAME>IV_NO_CARP_2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CIKAR</CMPNAME>
+     <SCONAME>EV_NO_CIKAR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CIKAR</CMPNAME>
+     <SCONAME>IV_NO_CIKAR_1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CIKAR</CMPNAME>
+     <SCONAME>IV_NO_CIKAR_2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOPLA</CMPNAME>
+     <SCONAME>EV_NO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOPLA</CMPNAME>
+     <SCONAME>IV_NO_1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOPLA</CMPNAME>
+     <SCONAME>IV_NO_2</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

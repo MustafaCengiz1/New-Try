@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMC_MSG_DISPLAY_YEDEK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Msg display</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZMC_SAP04_1</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_MSG</CMPNAME>
+     <SCONAME>IV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_MSG</CMPNAME>
+     <SCONAME>IV_INFO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_MSG</CMPNAME>
+     <SCONAME>IV_SUCCESS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_MSG</CMPNAME>
+     <SCONAME>IV_WARNING</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tek basamaklı gösterge</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

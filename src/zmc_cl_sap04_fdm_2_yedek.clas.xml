@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMC_CL_SAP04_FDM_2_YEDEK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data selection</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>ET_SCARR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TT for Scarr</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>ET_SPFLI</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TT for Spfli</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>IV_CARRID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Airline Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SCARR</CMPNAME>
+     <SCONAME>ET_SCARR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TT for Scarr</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SCARR</CMPNAME>
+     <SCONAME>IV_CARRID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Airline Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SPFLI</CMPNAME>
+     <SCONAME>ET_SPFLI</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TT for Spfli</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SPFLI</CMPNAME>
+     <SCONAME>IV_CARRID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Airline Code</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

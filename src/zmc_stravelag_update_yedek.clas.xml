@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMC_STRAVELAG_UPDATE_YEDEK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Uopdate name</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_LOG_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Uygulama günlüğü: Günlük başlığı verileri</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_LOG_MSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Uygulama günlüğü: İletinin verileri</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_LOG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Uygulama günlüğü: Günlük tanıtıcısı</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_TIMESTAMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Kısa şekliyle UTC zaman damgası (YYYYAAGGssddsa)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GUNCELLE</CMPNAME>
+     <SCONAME>GUNCELLEME_BASARISIZ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>guncelleme basarisiz</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GUNCELLE</CMPNAME>
+     <SCONAME>IV_AGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Seyahat acentası numarası</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ID_KONTROL</CMPNAME>
+     <SCONAME>IV_AGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Seyahat acentası numarası</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ID_KONTROL</CMPNAME>
+     <SCONAME>YANLIS_FIRMA_NO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Yanlis firma no</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ILK_LOG</CMPNAME>
+     <SCONAME>IV_AGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Seyahat acentası numarası</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ISIM_KONTROL</CMPNAME>
+     <SCONAME>BOS_ISIM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Bos isim</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ISIM_KONTROL</CMPNAME>
+     <SCONAME>FAZLA_KARAKTER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>25 karakter</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
