@@ -1,0 +1,65 @@
+*&---------------------------------------------------------------------*
+*& Report ZMC_SAP04_163
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT zmc_sap04_164_yedek.
+
+PARAMETERS: p_agnum  TYPE s_agncynum,
+            p_name   TYPE s_agncynam,
+            p_street TYPE s_street,
+            p_pbox   TYPE s_postbox,
+            p_pcode  TYPE postcode,
+            p_city   TYPE city,
+            p_cntry	 TYPE s_country,
+            p_region TYPE s_region,
+            p_tphone TYPE s_phoneno,
+            p_langu	 TYPE spras,
+            p_curr   TYPE s_curr_ag,
+            p_zebra  AS CHECKBOX,
+            p_optim  AS CHECKBOX.
+
+DATA: go_new_entry_2 TYPE REF TO zmc_cl_sap04_new_entry_2.
+
+START-OF-SELECTION.
+
+  CREATE OBJECT go_new_entry_2.
+
+  go_new_entry_2->new_entry(
+    EXPORTING
+      iv_agencynum = p_agnum
+      iv_name      = p_name
+      iv_street    = p_street
+      iv_postbox   = p_pbox
+      iv_postcode  = p_pcode
+      iv_city      = p_city
+      iv_country   = p_cntry
+      iv_region    = p_region
+      iv_telephone = p_tphone
+      iv_langu     = p_langu
+      iv_currency  = p_curr ).
+
+  go_new_entry_2->prep_data( ).
+
+  go_new_entry_2->prep_fcat( ).
+
+  go_new_entry_2->prep_layout(
+    EXPORTING
+      iv_zebra             = p_zebra
+      iv_colwidth_optimize = p_optim ).
+
+  go_new_entry_2->display_data( ).
+
+
+
+
+
+
+
+
+  "Satiri ekle
+  "Datayi oku
+  "Fcat olustur
+  "Layout hazirla
+
+  "ALV göster
